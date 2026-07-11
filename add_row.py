@@ -6,7 +6,7 @@ file_path = 'data/sample_data.csv'
 df=load_data()
 
 # Adding new row in data
-new_row_loc = {'Name':'person2','Age':25,'City':'city2'}
+new_row_loc = {'Name':'Haland','Age':55,'City':'Paris'}
 df.loc[len(df.index)] = new_row_loc
 
 df.to_csv(file_path, index=False)
